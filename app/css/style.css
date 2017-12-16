@@ -1,0 +1,17 @@
+body {
+  background-color: pink; }
+
+.alert {
+  font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: red; }
+
+.success {
+  font-family: Jubilat, Georgia, serif; }
+
+p {
+  padding: 80px; }
+
+section.main h2 {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px; }

@@ -1,0 +1,35 @@
+@import "_colors.scss";
+@import "_spaces.scss";
+body {
+  background-color: pink;
+}
+
+$font-sans: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+$font-serif: Jubilat, Georgia, serif;
+.alert {
+  font-family: $font-sans;
+  color: $color-accent;
+}
+
+.success {
+  font-family: $font-serif;
+}
+p {
+  padding: $xl;
+}
+$background: hotpink;
+
+@mixin rounded($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+          border-radius: $radius;
+}
+section.main h2 {
+ @include rounded(30px);
+
+}
+
+section.main h3 {
+
+}
